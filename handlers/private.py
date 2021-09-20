@@ -6,22 +6,22 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAELUCJhGiacm9ro5nAJXr_GlzPrpV3UgAACNwIAAkGdiFW9ustLyOBHoiAE")
+    await message.reply_sticker("CAACAgUAAxkBAAEC7uFhSDXAizy1JzcPt_rnp7gp0XOTtgACtwQAAmliQFbPe4RUL9O10CAE")
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I'm Private music of @TheRiZoeL For group's voice call. Developed by [ℝ𝚒ℤ𝚘𝚎𝕃](https://t.me/TheRiZoeL).
+I'm music of @SAIFALISEW1508 For group's voice call. Developed by [𓆩ꀤຖᎠꀤꋫຖ𓆪 [• 🇮🇳 •]ᏕᎯᎥʆ](https://t.me/SAIFALISEW1508).
 
-If you want to add this Bot in your group Contact @TheRiZoeL**
+If you want to Deploy Own Bot For Your group Contact @SAIFALISEW1508**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🥀ℝ𝚒ℤ𝚘𝚎𝕃", url="https://t.me/TheRiZoeL")
+                        "🥀DEVLOPER🥀", url="https://t.me/SAIFALISEW1508")
                   ],[ 
                     InlineKeyboardButton(
-                        "ᴅɴʜxʜᴇʟʟ", url="https://t.me/DNHxHELL"
+                        "😍SUPPORT CHAT😍", url="https://t.me/MYSTERIOUS_EMPIRE"
                     )]
             ]
         ),
@@ -30,12 +30,12 @@ If you want to add this Bot in your group Contact @TheRiZoeL**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**RiZoeL Music Player Online ✅**""",
+      await message.reply_text("""**Music Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "RiZoeL", url="https://t.me/RiZoeL")
+                        "CONTACT OWNER", url="https://t.me/SAIFALISEW1508")
                 ]
             ]
         )
